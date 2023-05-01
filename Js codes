@@ -1,0 +1,85 @@
+<html>
+  <body>
+<script>
+var ary=new Array();
+ary[0]=10;
+ary[1]=true;
+ary[2]="rahul";
+  for(var a=0;a<3;a++){
+    document.write("<li>"+ary[a]+"</li>");
+  }
+  </script>
+  </body>
+  </html>
+
+
+
+
+
+
+
+
+We can print all values using for in loop means all the properities
+<html>
+  <body>
+<script>
+var obj={
+firstname:"rahul",
+lastname:"garg",
+age:25,
+email:"gargr0109@gmail.com"
+};
+for(var key in obj){
+document.write(obj[key]+"<br>");
+}
+  </script>
+  </body>
+  </html>
+  
+  
+  
+  
+  
+  
+  
+  
+  includes is a case sensititve function 
+  
+  
+  var a=str.includes("ipt");
+  
+  var a=str.endswith("age");
+  
+  
+  var str="javascript is a great language";
+  var a=str.search("is");   // 11
+  var a=str.search("great");   //16
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
