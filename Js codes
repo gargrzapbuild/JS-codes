@@ -260,13 +260,27 @@ now.setMonth();
 now.setHours();
 ---------------------------------------------------------------------------------------------
 Document Object Model
+
+
+Targeting Dom object.
+
+ID      -> document.getElementbyId(id);
+Class     -> document.getElementByClassNmae(name)
+Tag Name    ->document.getElementByTagName(name)
+
+
+var element;
+element=document.all;   //it will return all tags in array type of the page.
+console.log(element);
+
+
+
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 
 
 
 
-
-
+------------------------------------------------------------------------------------------------------
 
 
 
